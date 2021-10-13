@@ -1,0 +1,81 @@
+h1{
+    text-align: left;
+    font-size: 20px;
+}
+h2{
+    text-align: left;
+    font-size: 20px;
+}
+p{
+    text-align: left;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+#fotos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45px;
+}
+#fotos li img{
+    width:150px;
+    height:150px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid
+}
+#campos{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid;
+    clear: both;
+}
+#parte{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+#parte ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10 px;
+}
+
+#parte1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+#parte1 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10 px;
+}
+.info{
+    width: 80%;
+    height: 80%;
+}
+.info ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 10px 0px 10px;
+}
+.info ul li{
+    margin-bottom: 8px;
+     display: flex;
+     flex-direction: row;
+ }
+.info ul li div{
+    margin-left: 8px;
+}
